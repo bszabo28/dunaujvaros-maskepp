@@ -4,9 +4,10 @@
         position: relative;
 
         &__heading {
+                font-weight: 700;
                 font-size: 3rem;
                 line-height: 1.5;
-                padding: 2rem 0;
+                padding: 1rem 0;
         }
 
         &__image {
