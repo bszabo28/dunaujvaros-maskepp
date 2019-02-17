@@ -1,0 +1,13 @@
+{
+  "name": "css-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.17.0"
+  },
+  "scripts": {
+    "hot": "parcel src/index.html"
+  }
+}

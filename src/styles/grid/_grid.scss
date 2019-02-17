@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+.container {
+        position: relative;
+        max-width: 110rem;
+        margin: 0 auto;
+
+        @include respond-to('large') {
+                padding: 0 5rem;
+        }
+}

@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+.footer {
+
+        &__signature {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: $color-text;
+                text-transform: uppercase;
+                text-align: right;
+        }
+
+        a {
+                &:link,
+                &:visited,
+                &:active {
+                        color: $color-text;
+                }
+
+                &:hover {
+                        background-color: $color-yellow;
+                        transition: all .5s;
+                }
+        }
+}
