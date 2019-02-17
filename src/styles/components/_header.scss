@@ -26,11 +26,20 @@
                 border-right: 1rem solid $color-yellow;
                 border-left: 1rem solid $color-yellow;
                 box-decoration-break: clone;
+
+                @include respond-to('medium') {
+                        padding: 0;
+                        border: 0;
+                }
         }
 
         &__heading {
                 line-height: 1.5;
                 font-size: 5rem;
+
+                @include respond-to('medium') {
+                        font-size: 4rem;
+                }
         }
 
         &__motto {

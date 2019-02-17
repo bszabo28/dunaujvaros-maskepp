@@ -4,6 +4,7 @@ $color-yellow: #ffee59;
 $color-text: #282828;
 
 $breakpoints: (
+  'extra-small':  ( max-width:  400px ),
   'small':  ( max-width:  767px ),
   'medium': ( max-width:  992px ),
   'large':  ( max-width: 1200px )
