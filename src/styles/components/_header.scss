@@ -8,7 +8,7 @@
         background-position: 50% 50%;
 
         @include respond-to('medium') {
-                background-image: url(../images/skyline-small.jpg);
+                background-image: url(../images/skyline-kicsi.jpg);
         }
 
         &__welcome {
