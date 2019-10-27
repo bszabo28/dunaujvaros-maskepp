@@ -8,9 +8,7 @@
     "sass": "^1.17.0"
   },
   "scripts": {
-    "hot": "parcel src/index.html"
-  },
-  "dependencies": {
-    "semver": "^6.3.0"
+    "hot": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url ."
   }
 }
