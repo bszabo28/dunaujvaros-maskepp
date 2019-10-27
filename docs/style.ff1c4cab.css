@@ -193,14 +193,14 @@ body {
 
 .header {
   position: relative;
-  background-image: url(skyline.52fb2953.jpg);
+  background-image: url(/skyline.52fb2953.jpg);
   height: 80vh;
   background-size: cover;
   background-position: 50% 50%;
 }
 @media (max-width: 992px) {
   .header {
-    background-image: url(skyline-kicsi.300abe8c.jpg);
+    background-image: url(/skyline-kicsi.300abe8c.jpg);
   }
 }
 .header__welcome {
@@ -242,3 +242,5 @@ body {
 .header__image img {
   width: 100%;
 }
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
