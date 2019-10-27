@@ -9,5 +9,8 @@
   },
   "scripts": {
     "hot": "parcel src/index.html"
+  },
+  "dependencies": {
+    "semver": "^6.3.0"
   }
 }
