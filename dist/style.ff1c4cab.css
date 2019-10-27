@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700&subset=latin-ext");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.u-margin-large {
+  margin-bottom: 5rem !important;
+}
+
+.u-margin-medium {
+  margin-bottom: 3rem !important;
+}
+
+.container {
+  position: relative;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.article {
+  position: relative;
+}
+.article__heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+.article__image {
+  width: 100%;
+  line-height: 0;
+  font-size: 0;
+}
+.article__image img {
+  width: 100%;
+}
+.article__image--pair img {
+  width: 50%;
+}
+@media (max-width: 992px) {
+  .article__image--pair img {
+    width: 100%;
+  }
+  .article__image--pair img:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.article--text {
+  padding: 5rem 0;
+  display: flex;
+}
+.article--text .article__heading {
+  padding: 0;
+  padding-right: 5rem;
+  white-space: nowrap;
+  border-right: 1px solid #282828;
+}
+.article--text .article__long-story-short {
+  padding-left: 5rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+@media (max-width: 992px) {
+  .article--text {
+    display: block;
+  }
+  .article--text .article__heading {
+    border-right: none;
+    padding: inherit;
+    padding-top: 0;
+  }
+  .article--text .article__long-story-short {
+    padding: unset;
+  }
+}
+
+.footer__signature {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #282828;
+  text-transform: uppercase;
+  text-align: right;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+  color: #282828;
+}
+.footer a:hover {
+  background-color: #ffee59;
+  transition: all 0.5s;
+}
+
+.header {
+  position: relative;
+  background-image: url(/skyline.52fb2953.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+@media (max-width: 992px) {
+  .header {
+    background-image: url(/skyline-kicsi.300abe8c.jpg);
+  }
+}
+.header__welcome {
+  position: relative;
+  top: 25%;
+}
+.header__heading, .header__motto {
+  font-weight: 700;
+  padding: 0;
+  display: inline;
+  padding: 0 1rem;
+  color: #282828;
+  background-color: #ffee59;
+  border-right: 1rem solid #ffee59;
+  border-left: 1rem solid #ffee59;
+  box-decoration-break: clone;
+}
+@media (max-width: 992px) {
+  .header__heading, .header__motto {
+    padding: 0;
+    border: 0;
+  }
+}
+.header__heading {
+  line-height: 1.5;
+  font-size: 5rem;
+}
+@media (max-width: 992px) {
+  .header__heading {
+    font-size: 4rem;
+  }
+}
+.header__motto {
+  line-height: 2;
+}
+.header__image {
+  width: 100%;
+}
+.header__image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
